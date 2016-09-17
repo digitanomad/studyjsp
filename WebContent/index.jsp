@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>처음으로 작성하는 JSP페이지</title>
 </head>
 <body>
-
+	<%="처음으로 작성하는 JSP페이지" %>
 </body>
 </html>
