@@ -22,5 +22,5 @@
 			<input type="submit" value="확인">
 		</dd>
 	</dl>
-</form>
+</form> 
 
