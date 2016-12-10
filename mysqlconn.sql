@@ -50,3 +50,5 @@ where id = 'hongkd@aaa.com';
 
 delete from member
 where id = 'hongkd@aaa.com';
+
+alter table member modify passwd varchar(60) not null;
