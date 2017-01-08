@@ -52,3 +52,23 @@ delete from member
 where id = 'hongkd@aaa.com';
 
 alter table member modify passwd varchar(60) not null;
+
+
+
+
+create table board(
+	num int not null primary key auto_increment,
+	writer varchar(50) not null,
+	subject varchar(50) not null,
+	content text not null,
+	passwd varchar(60) not null,
+	reg_date datetime not null,
+	ip varchar(30) not null,
+	readcount int default 0,
+	ref int not null,
+	re_step smallint not null,
+	re_level smallint not null
+);
+
+select *
+from board;
