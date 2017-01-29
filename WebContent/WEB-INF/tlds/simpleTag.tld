@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<taglib
+    xsi:schemaLocation=
+    "http://java.sun.com/xml/ns/javaee web-
+        jsptaglibrary_2_1.xsd"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     version="2.1">
+     
+    <tlib-version>1.0</tlib-version>
+    <short-name>simpleTag</short-name>
+    
+    <tag>
+    	<name>simpleWelcome</name>
+    	<tag-class>ch16.customtag.SimpleWelcomeTag</tag-class>
+    	<body-content>empty</body-content>
+    </tag>
+    <tag>
+    	<name>simpleBody</name>
+    	<tag-class>ch16.customtag.SimpleBodyTag</tag-class>
+    	<body-content>scriptless</body-content>
+    </tag>
+</taglib>
